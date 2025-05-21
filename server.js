@@ -9,8 +9,6 @@ const { errorHandler, notFound } = require('./middleware/errorMiddleware');
 dotenv.config();
 
 const app = express();
-
-// Body parser
 app.use(express.json());
 
 // Enable CORS
